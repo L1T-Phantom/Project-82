@@ -9,8 +9,7 @@ export default class Profile extends Component {
           flex: 1,
           justifyContent: 'center',
           alignItems: 'center',
-        }}
-      >
+        }}>
         <Text>Profile</Text>
       </View>
     );

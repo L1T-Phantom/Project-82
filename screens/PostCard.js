@@ -52,10 +52,10 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   cardContainer: {
-    margin: RFValue(13),
-    backgroundColor: '#2a2a2a',
-    borderRadius: RFValue(20),
-    padding: RFValue(20),
+    margin: RFValue(15),
+    backgroundColor: '#212121',
+    borderRadius: RFValue(25),
+    padding: RFValue(25),
   },
   authorContainer: {
     flex: 0.1,
@@ -89,7 +89,7 @@ const styles = StyleSheet.create({
   },
   captionContainer: {},
   captionText: {
-    fontSize: 13,
+    fontSize: 15,
     color: 'white',
     paddingTop: RFValue(10),
   },
@@ -99,17 +99,17 @@ const styles = StyleSheet.create({
     padding: RFValue(10),
   },
   likeButton: {
-    width: RFValue(160),
-    height: RFValue(40),
+    width: RFValue(150),
+    height: RFValue(45),
     justifyContent: 'center',
     alignItems: 'center',
     flexDirection: 'row',
-    backgroundColor: '#eb3948',
-    borderRadius: RFValue(30),
+    backgroundColor: 'red',
+    borderRadius: RFValue(35),
   },
   likeText: {
     color: 'white',
     fontSize: RFValue(25),
-    marginLeft: RFValue(5),
+    marginLeft: RFValue(1),
   },
 });

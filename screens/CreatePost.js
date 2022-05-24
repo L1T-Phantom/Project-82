@@ -9,8 +9,7 @@ export default class CreatePost extends Component {
           flex: 1,
           justifyContent: 'center',
           alignItems: 'center',
-        }}
-      >
+        }}>
         <Text>Create Post</Text>
       </View>
     );
